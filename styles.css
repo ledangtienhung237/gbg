@@ -116,3 +116,18 @@
       width: 100%;
     }
   }
+/* Basic styles for news feed */
+.news-feed {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.news-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #888;
+}
