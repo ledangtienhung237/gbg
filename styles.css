@@ -133,3 +133,14 @@
 .date {
   color: #888;
 }
+
+/* Example CSS for logo and title */
+.logo {
+  float: left; /* Align the logo to the left */
+  margin-right: 20px; /* Adjust spacing between logo and title */
+}
+
+.title {
+  /* Styles for your title or text */
+  margin-top: 10px; /* Adjust the margin as needed */
+}
