@@ -23,6 +23,12 @@
 @media (max-width: 480px) {
     /* Styles for mobile devices */
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*this is scale image for multible device like mobile and tablet or computer
   /* Header/logo Title */
   .header {
     padding: 80px;
