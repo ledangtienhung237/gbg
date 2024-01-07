@@ -11,7 +11,18 @@
     background-attachment: fixed;
     background-size: 100% 100%;
   }
-  
+  /* CSS for desktop */
+/* Your regular desktop styles here */
+
+/* CSS for tablets */
+@media (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+}
+
+/* CSS for mobile phones */
+@media (max-width: 480px) {
+    /* Styles for mobile devices */
+}
   /* Header/logo Title */
   .header {
     padding: 80px;
