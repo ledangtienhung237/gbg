@@ -46,31 +46,35 @@ img {
   }
   
   /* Style the top navigation bar */
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  
-  /* Right-aligned link */
-  .navbar a.right {
-    float: right;
-  }
-  
-  /* Change color on hover */
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+ /* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Adding a smooth transition effect */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  background-color: #f44336; /* Red background for right-aligned link */
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style for active link */
+.navbar a.active {
+  background-color: #4caf50; /* Green background for active link */
+  color: white;
+}
+
   
   /* Column container */
   .row {  
