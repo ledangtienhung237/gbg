@@ -31,3 +31,36 @@ newsData.forEach(news => {
 
   newsFeed.appendChild(newsItem);
 });
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+    // Sample data (replace with your own)
+    var data = {
+        labels: ['Duncan', 'Paul', 'Nancy', 'Alvis', 'Marcel', 'Cris'],
+        datasets: [{
+            label: 'Weekly report',
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+            data: [437, 420, 338, 312, 298, 310] // Replace with your data values
+        }]
+    };
+
+    // Configuration options
+    var options = {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    };
+
+    // Get the context of the canvas element
+    var ctx = document.getElementById('myColumnChart').getContext('2d');
+
+    // Create the column chart
+    var myColumnChart = new Chart(ctx, {
+        type: 'bar',
+        data: data,
+        options: options
+    });
+});
