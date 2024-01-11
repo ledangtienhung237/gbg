@@ -137,22 +137,7 @@ img {
       width: 100%;
     }
   }
-/* Basic styles for news feed */
-.news-feed {
- width: 80%;
-  margin: 20px auto;
-  padding: 20px; /* Adding some padding for better readability */
-    background-color: gray;
-}
 
-.news-item {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 20px;
- color: white;
-  background-color: gray;
-    
-}
 
 .date {
   color: white;
