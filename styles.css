@@ -13,7 +13,7 @@ body {
 
 /* Styles for elements with background image */
 .main {
-   background-image: url('vecteezy_serenidad-y-paz-con-esta-asombroso-4k-fondo-de-pantalla_26481319.jpg')
+   background-image: url('vecteezy_serenidad-y-paz-con-esta-asombroso-4k-fondo-de-pantalla_26481319.jpg');
   padding: 20px;
   background-color: #f1f1f1; /* Adjust the background color if needed */
 }
