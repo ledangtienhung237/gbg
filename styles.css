@@ -145,4 +145,34 @@
   .red-bg {
     background-color: #ff8080;
   }
-  
+  #sheetData {
+    background-color: #f1f1f1; /* Replace with the color you want */
+    padding: 20px; /* Add padding if needed */
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff; /* Background color for the table itself */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+#sheetData {
+    background-color: #f1f1f1; /* Replace with the color you want */
+    padding: 20px; /* Add padding if needed */
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff; /* Background color for the table itself */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
