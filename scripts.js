@@ -50,6 +50,8 @@ function displaySheetData(data) {
             cellClass = 'lightly-blue-bg';
           } else if (cellValue === 'OFF') {
             cellClass = 'red-bg';
+          } else if (cellValue === "AL") {
+            cellClass = 'green-bg';
           }
   
           // Apply bold styling if the content is in the list
