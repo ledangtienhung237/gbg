@@ -113,3 +113,36 @@ color: white;
 .title {
   margin-top: 10px;
 }
+#sheetData {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.grey-bg {
+  background-color: #d3d3d3;
+}
+
+.lightly-blue-bg {
+  background-color: #add8e6;
+}
+
+.red-bg {
+  background-color: #ff8080;
+}
+
