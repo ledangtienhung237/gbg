@@ -64,4 +64,3 @@ function displaySheetData(data) {
     sheetDataElement.innerHTML = 'No data available';
   }
 }
-
