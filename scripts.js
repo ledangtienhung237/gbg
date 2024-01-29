@@ -59,7 +59,7 @@ function displaySheetData(data) {
           }
   
           // Apply bold styling if the content is in the list
-          if (["Hunter", "Alvis", "Paul", "Nancy", "Duncan", "Marcel", "Cris"].includes(cellValue)) {
+          if (["Hunter", "Chipucu", "Paul", "Nancy", "Duncan", "Marcel", "Liu Quẽn"].includes(cellValue)) {
             table += '<td class="' + cellClass + '"><b>' + cellValue + '</b></td>';
           } else {
             table += '<td class="' + cellClass + '">' + cellValue + '</td>';
