@@ -2,7 +2,7 @@ gapi.load('client', initClient);
 
 function initClient() {
   gapi.client.init({
-    apiKey: 'YOUR_API_KEY',
+    apiKey: 'AIzaSyCC44a5q3PVMDLMNHKkeNU6LmLDM9vxdL8',
     discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
   }).then(function () {
     loadSheetData();
@@ -13,7 +13,7 @@ function initClient() {
 
 function loadSheetData() {
   gapi.client.sheets.spreadsheets.values.get({
-    spreadsheetId: 'YOUR_SPREADSHEET_ID',
+    spreadsheetId: '1187dK3mkEz8g3At8BnrwDnyWRfk7EzmsEhWPc10lKjM',
     range: 'Trang tính1' // Change to your sheet name
   }).then(function (response) {
     var values = response.result.values;
